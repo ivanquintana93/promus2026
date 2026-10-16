@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Áudio - Versões</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Área da imagem -->
+        <div class="imagem-container">
+            <img src="imagens/capa.jpg" alt="Capa" class="capa" id="capa">
+        </div>
+        
+        <!-- Área do player -->
+        <div class="player-container">
+            <!-- Informação da faixa atual -->
+            <div class="faixa-info">
+                <span class="faixa-titulo" id="faixaTitulo">Escolha uma versão</span>
+                <span class="faixa-descricao" id="faixaDescricao"></span>
+            </div>
+            
+            <!-- Player de áudio -->
+            <audio id="audioPlayer" controls>
+                Seu navegador não suporta áudio.
+            </audio>
+            
+            <!-- Botões de seleção de versão -->
+            <div class="versoes" id="versoesContainer">
+                <!-- Os botões serão criados pelo JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
